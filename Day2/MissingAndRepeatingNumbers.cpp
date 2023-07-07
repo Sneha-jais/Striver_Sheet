@@ -33,3 +33,51 @@ return p;
 }
 
 //Approach 2: Using bit manipulation
+
+#include <bits/stdc++.h>
+
+pair<int,int> missingAndRepeating(vector<int> &arr, int n)
+{
+
+int x=0;
+for(int i=0;i<n;i++){
+	x^=arr[i];
+	x^=(i+1);
+}
+
+int setBit=x&(~(x-1));
+
+
+int zero=0,one=0;
+
+
+for(int i=0;i<n;i++){
+	if(arr[i]&setBit)
+		zero^=arr[i];
+	else
+		one^=arr[i];
+	
+	if((i+1)&setBit)
+		zero^=(i+1);
+	else
+		one^=(i+1);
+}
+
+
+int count=0;
+
+for(int i=0;i<n;i++){
+  if (arr[i] == zero) 
+    count++;
+  
+}
+    if(count==2)
+		return { one,zero};
+	return {zero,one};
+
+
+}
+
+
+
+
