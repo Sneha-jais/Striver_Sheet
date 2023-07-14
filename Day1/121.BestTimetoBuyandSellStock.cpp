@@ -12,8 +12,10 @@ public:
         for(int i=0;i<n;i++){
 
             mini=min(mini,prices[i]);
+            
             int prof=prices[i]-mini;
             maxi=max(maxi,prof);
+            
 
         }
 
