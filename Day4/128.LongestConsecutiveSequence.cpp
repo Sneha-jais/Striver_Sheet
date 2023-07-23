@@ -1,7 +1,9 @@
 //Leetcode link: https://leetcode.com/problems/longest-consecutive-sequence/
 
 class Solution {
+
 public:
+
     int longestConsecutive(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         int n=nums.size();
