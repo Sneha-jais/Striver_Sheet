@@ -1,7 +1,7 @@
 //Leetcode link:https://leetcode.com/problems/majority-element/description/
 
-
 //Better approach
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
