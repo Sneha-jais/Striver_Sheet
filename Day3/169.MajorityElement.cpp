@@ -1,7 +1,6 @@
 //Leetcode link:https://leetcode.com/problems/majority-element/description/
 
 //Better approach
-
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -42,6 +41,7 @@ public:
              count--;
          }
      }
+        
     
 //From Moore's voting algorithm we got the element but we have to check it whether it is major element or not
     int counter=0;
