@@ -1,5 +1,4 @@
 //Leetcode link: https://leetcode.com/problems/middle-of-the-linked-list/description/
-
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -11,7 +10,6 @@ public:
             temp=temp->next;
             temp2=temp2->next->next;
         }
-
 return temp;
     }
 };
