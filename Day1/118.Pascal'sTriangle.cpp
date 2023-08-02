@@ -1,5 +1,4 @@
 //Leetcode link: https://leetcode.com/problems/pascals-triangle/
-
 //Approach 1:
 class Solution {
 public:
