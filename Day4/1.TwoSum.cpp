@@ -1,5 +1,4 @@
 //Leetcode link: https://leetcode.com/problems/two-sum/
-
 //BruteForce
 
 class Solution {
