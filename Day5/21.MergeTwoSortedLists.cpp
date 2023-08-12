@@ -1,5 +1,6 @@
 //Leetcode link:https://leetcode.com/problems/merge-two-sorted-lists/description/
 class Solution {
+
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
         if(list1==NULL)
