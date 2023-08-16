@@ -1,10 +1,13 @@
 //Leetcode link:https://leetcode.com/problems/powx-n/description/
+
 class Solution {
+
 public:
     double myPow(double x, int n1) {
 
         double ans=1.0;
         long n=n1;
+        
 
         if(n<0){
             n=-1*n;
