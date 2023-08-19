@@ -2,7 +2,6 @@
 
 class MyQueue {
 public:
-
     stack<int> s1,s2;
     MyQueue() {
         
