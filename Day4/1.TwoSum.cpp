@@ -1,6 +1,6 @@
 //Leetcode link: https://leetcode.com/problems/two-sum/
-//BruteForce
 
+//BruteForce
 class Solution {
 public:
 
@@ -46,7 +46,6 @@ return {-1,-1};
 }  
 };
 
-
 //Optimal
   
 class Solution {
@@ -89,8 +88,5 @@ int t1=-1,t2=-1;
     }
   }
   return {t1,t2};
-
-}
-        
-
+}   
 };
