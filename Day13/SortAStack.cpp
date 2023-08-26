@@ -3,8 +3,6 @@
 #include <bits/stdc++.h> 
 void sortStack(stack<int> &s)
 {
-	// Write your code here
-
 	
 priority_queue <int, vector<int>, greater<int> > v;
 
