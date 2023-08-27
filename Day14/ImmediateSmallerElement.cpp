@@ -1,5 +1,7 @@
 //Coding ninjas link: https://www.codingninjas.com/studio/problems/immediate-smaller-element-_1062597?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTab=0
+
 void immediateSmaller(vector<int>& a)
+
 {
 	// Write your code here.
 	int n=a.size();
