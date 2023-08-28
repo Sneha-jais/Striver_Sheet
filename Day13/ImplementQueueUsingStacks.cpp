@@ -1,12 +1,10 @@
 //Leetcode link: https://leetcode.com/problems/implement-queue-using-stacks/description/
-
 class MyQueue {
 public:
     stack<int> s1,s2;
     MyQueue() {
         
     }
-    
     void push(int x) {
       
         while(!s2.empty()){
