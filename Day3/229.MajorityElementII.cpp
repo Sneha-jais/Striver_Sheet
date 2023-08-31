@@ -1,6 +1,5 @@
 //Leetcode link: https://leetcode.com/problems/majority-element-ii/description/
 //Brute Force:
-
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
