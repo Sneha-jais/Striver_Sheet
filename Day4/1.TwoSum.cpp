@@ -1,5 +1,6 @@
 //Leetcode link: https://leetcode.com/problems/two-sum/
 //BruteForce
+
 class Solution {
 public:
 
@@ -11,6 +12,7 @@ public:
         {
             if(nums[i]+nums[j]==target)
             {
+                //Break the loop if sum is equals to target
                 x=i;
                 y=j;
                 break;
